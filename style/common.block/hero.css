@@ -1,5 +1,5 @@
 .hero {
-    background: url(/img/index/first.jpg) center/cover, no-repeat;
+    background: url(../../img/index/first.jpg) center/cover, no-repeat;
     margin-bottom:clamp(0.625rem, -0.3393rem + 4.8214vw, 4rem);
 }
 .hero__glass {
