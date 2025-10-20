@@ -1,0 +1,6 @@
+.accordion__item-content {
+    display: none;
+}
+.accordion__item-content_active {
+    display: block;
+}

@@ -1,0 +1,180 @@
+@media (min-width: 768px) {
+  .nav {
+    position: static;
+    flex-direction: row;
+    width: fit-content;
+    background-color: var(--black);
+    padding: 0;
+  }
+
+  .nav__list {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .nav__link {
+    font-size: 18px;
+  }
+
+  .burger {
+    display: none;
+  }
+
+}
+
+@media (max-width: 768px) {}
+
+@media (min-width: 768px) {
+  .post__container {
+    flex-wrap: nowrap;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .about__list {
+    flex-wrap: nowrap;
+  }
+}
+
+@media (max-width: 1200px) {
+  .start__content {
+    background-color: rgba(255, 255, 255, 0.434);
+  }
+}
+
+@media (max-width: 700px) {
+  .start__container {
+    flex-direction: column;
+  }
+
+  .start__content {
+    position: static;
+  }
+}
+
+@media (min-width: 1000px) {
+  .blog__container {
+    flex-wrap: nowrap;
+  }
+
+}
+
+@media (max-width: 1000px) {
+  .blog__content {
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.517);
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .blog__slider {
+    padding-top: 20px;
+  }
+}
+
+@media (min-width: 576px) {
+  .blog__content {
+    min-width: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+  .swiper-button-next {
+    bottom: 20%;
+    left: 75%;
+  }
+
+  .swiper-button-prev {
+    top: 90%;
+    left: 80%;
+  }
+
+}
+
+@media (min-width: 900px) {
+  .footer__second-box {
+    flex-wrap: nowrap;
+  }
+}
+
+@media (min-width: 576px) {
+  .footer__form {
+    flex-wrap: nowrap;
+
+  }
+}
+
+
+/* blog -------- */
+
+@media (min-width: 576px) {
+  .pairs__container {
+    flex-wrap: nowrap;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .all__list-item {
+    flex-wrap: nowrap;
+    justify-content: left;
+  }
+}
+
+/* cc------ */
+
+@media (min-width: 576px) {
+  .contact__list {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .categoria__content2 {
+    flex-wrap: nowrap;
+  }
+}
+
+@media (min-width: 992px) {
+  .categoria__list-item {
+    flex-wrap: nowrap;
+  }
+
+  .creatives__container {
+    flex-wrap: nowrap;
+  }
+  .creatives__box {
+    padding-left: 60px;
+  }
+  .why__container {
+    flex-wrap: nowrap;
+  }
+}
+
+@media (min-width: 800px) {
+  .categoria__container {
+    flex-wrap: nowrap;
+  }
+
+  .categoria__content2 {
+    flex-direction: column;
+  }
+
+  .our__list {
+    flex-wrap: nowrap;
+  }
+}
+
+@media (min-width: 768px) {
+  .mypost__list-item {
+    flex-wrap: nowrap;
+
+  }
+}
+
+@media (min-width: 576px) {
+  .writers__content1 {
+    flex-wrap: nowrap;
+  }
+}

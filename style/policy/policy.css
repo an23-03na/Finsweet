@@ -1,0 +1,12 @@
+.policy {
+    padding-block:  clamp(0.9375rem, 0.0625rem + 4.375vw, 4rem);
+}
+.policy__container {
+    max-width: 768px;
+}
+.policy__title {
+    margin-bottom:  clamp(1.25rem, 1.0357rem + 1.0714vw, 2rem);
+}
+.policy__text {
+    margin-bottom:  clamp(1.25rem, 1.0357rem + 1.0714vw, 2rem);
+}

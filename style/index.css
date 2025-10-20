@@ -1,0 +1,36 @@
+@import url(./common.block/header.css);
+@import url(./common.block/burger.css);
+@import url(./common.block/nav.css);
+@import url(./common.block/hero.css);
+@import url(./common.block/dialog.css);
+@import url(./common.block/post.css);
+@import url(./common.block/about.css);
+@import url(./common.block/authors.css);
+@import url(./common.block/blog.css);
+@import url(./common.block/category.css);
+@import url(./common.block/featured.css);
+@import url(./common.block/footer.css);
+@import url(./common.block/join.css);
+@import url(./common.block/post.css);
+@import url(./common.block/start.css);
+
+@import url(./blog/all.css);
+@import url(./blog/pairs.css);
+@import url(./blog-post/lorem.css);
+@import url(./blog-post/next.css);
+@import url(./blog-post/step.css);
+
+@import url(./about/creatives.css);
+@import url(./about/our.css);
+@import url(./about/why.css);
+@import url(./about/writers.css);
+
+@import url(./author/hey.css);
+@import url(./author/mypost.css);
+
+@import url(./category/business.css);
+@import url(./category/categoria.css);
+
+@import url(./contact/contact.css);
+@import url(./policy/policy.css);
+@import url(./policy/privacy.css);

@@ -1,0 +1,38 @@
+.hero {
+    background: url(/img/index/first.jpg) center/cover, no-repeat;
+    margin-bottom:clamp(0.625rem, -0.3393rem + 4.8214vw, 4rem);
+}
+.hero__glass {
+    background-color: rgba(0, 0, 0, 0.536);
+}
+.hero__container {
+
+}
+.hero__content {
+    max-width: 804px;
+    padding-top:clamp(1.25rem, -0.6786rem + 9.6429vw, 8rem);
+    padding-bottom:clamp(1.25rem, -1.8214rem + 15.3571vw, 12rem);
+}
+.hero__before-title {
+    color: var(--light);
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.hero__before-title-bold {
+    font-weight: 700;
+}
+.hero__title {
+    color: var(--light);
+    font-size:clamp(1.5625rem, 1.0089rem + 2.7679vw, 3.5rem);
+    margin-block: 15px;
+}
+.hero__text {
+    color: var(--light);
+    padding: 8px 0;
+}
+.hero__text-mark {
+    color: var(--yellow);
+}
+.hero__button {
+    margin-block: 40px;
+}

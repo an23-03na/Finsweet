@@ -1,0 +1,51 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+.text {
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: clamp(0.9375rem, 0.9196rem + 0.0893vw, 1rem);
+  line-height: 175%;
+  color: var(--medium-grey);
+
+}
+
+.title {
+  margin: 0;
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size:clamp(1.5625rem, 1.1518rem + 2.0536vw, 3rem);
+  line-height: 133%;
+  letter-spacing: -0.04em;
+  color: var(--black);
+
+}
+
+.title-second {
+  margin: 0;
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: clamp(1.5625rem, 1.3661rem + 0.9821vw, 2.25rem);
+  line-height: 133%;
+  letter-spacing: -0.06em;
+  color: var(--black);
+}
+
+.button {
+  padding: clamp(0.625rem, 0.5179rem + 0.5357vw, 1rem) clamp(1.25rem, 0.75rem + 2.5vw, 3rem);
+  background-color: var(--yellow);
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size:clamp(1rem, 0.9643rem + 0.1786vw, 1.125rem);
+  line-height: 133%;
+  color: var(--black);
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #f8b601;
+}

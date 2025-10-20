@@ -1,0 +1,15 @@
+.join {
+    padding-block: clamp(0.625rem, -0.3393rem + 4.8214vw, 4rem);
+}
+.join__container {
+    max-width: 414px;
+    text-align: center;
+}
+.join__title {
+    margin-bottom: 16px;
+}
+.join__text {
+    margin-bottom: 30px;
+}
+.join__button {
+}

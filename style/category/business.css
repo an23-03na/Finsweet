@@ -1,0 +1,34 @@
+.business {
+    background: var(--lavender);
+    margin-bottom: clamp(1.25rem, 0.4643rem + 3.9286vw, 4rem);
+}
+
+.business__container {
+    max-width: 515px;
+    text-align: center;
+    padding-block: clamp(1.25rem, 0.1786rem + 5.3571vw, 5rem);
+}
+
+.business__title {
+    font-size: clamp(1.5625rem, 1.0089rem + 2.7679vw, 3.5rem);
+    margin-bottom: 16px;
+}
+
+.business__text {
+    margin-bottom: clamp(1.25rem, 1.0357rem + 1.0714vw, 2rem);
+}
+
+.business__link {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.19em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--black);
+    text-decoration: none;
+}
+.business__link:hover {
+    color: gray;
+}

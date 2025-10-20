@@ -1,0 +1,48 @@
+ .nav {
+   position: fixed;
+   top: -100%;
+   width: 100%;
+   bottom: 100%;
+   left: 0;
+   right: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 32px;
+   padding: 25px 0;
+   padding-top: 60px;
+   background-color: var(--black);
+   z-index: 100;
+   transition: top 0.5s, bottom 0.5s;
+ }
+
+ .nav_active {
+   top: 0;
+   bottom: 0;
+ }
+
+ .nav__list {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 65px;
+ }
+
+ .nav__link {
+   font-weight: 500;
+   font-size: 34px;
+   color: var(--light);
+   text-decoration: none;
+ }
+
+ .nav__link:hover {
+   text-decoration: underline;
+ }
+
+ .link-home,
+ .link-blog,
+ .link-about,
+ .link-contact,
+ .link-policy {
+   text-decoration: underline;
+ }

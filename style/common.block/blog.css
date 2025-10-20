@@ -1,0 +1,107 @@
+.blog {
+    padding-block: clamp(0.625rem, -0.3393rem + 4.8214vw, 4rem);
+}
+
+.blog__container {
+    display: flex;
+    flex-wrap: wrap;
+    background: var(--light-yellow);
+    padding: clamp(0.9375rem, -0.4375rem + 6.875vw, 5.75rem) clamp(0.9375rem, -0.7946rem + 8.6607vw, 7rem) clamp(0.9375rem, -0.1339rem + 5.3571vw, 4.6875rem);
+}
+
+.blog__content {
+    width: 100%;
+    border-right: 1px solid rgba(128, 128, 128, 0.517);
+    padding-right: clamp(0.9375rem, -0.2232rem + 5.8036vw, 5rem);
+}
+
+.blog__before-title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.19em;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.blog__title {
+    margin: 16px 0;
+}
+
+.blog__text {
+    color: var(--black);
+}
+
+.blog__slider {}
+
+.swiper-slide {
+    padding-left: clamp(1.25rem, -0.0893rem + 6.6964vw, 5.9375rem);
+}
+
+.swiper-button-next {
+    bottom: 5%;
+    right: 5%;
+    top: auto;
+    left: auto;
+    width: 80px;
+}
+.swiper-button-next::after {
+    content: "";
+    display: none;
+}
+.swiper-button-prev {
+    bottom: 5%;
+    right: 120px;
+    top: auto;
+    left: auto;
+    width: 48px;
+}
+.swiper-button-prev::after {
+    content: "";
+    display: none;
+}
+
+.blog__slider-text {
+    max-width: 470px;
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: clamp(1.25rem, 1.1786rem + 0.3571vw, 1.5rem);
+    line-height: 133%;
+    color: var(--black);
+    margin-bottom: clamp(1.25rem, -0.5536rem + 9.0179vw, 7.5625rem);
+}
+
+.blog__slider-box {
+    display: grid;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    grid-template-areas: 
+    "img name"
+    "img address";
+}
+
+.blog__slider-img {
+    grid-area: img;
+    width: 60px;
+    height: 60px;
+}
+
+.blog__slider-name {
+    grid-area: name;
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: clamp(1.125rem, 1.0179rem + 0.5357vw, 1.5rem);
+    line-height: 133%;
+    color: var(--black);
+}
+
+.blog__slider-address {
+    grid-area: address;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--medium-grey);
+}
