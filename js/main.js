@@ -83,18 +83,7 @@ document.addEventListener('DOMContentLoaded', function() {
   observer.observe(container);
 });
 
-// Анимация появления секции при прокрутке
-const writersBlocks = document.querySelectorAll('.writers__content1, .writers__content2');
 
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('show');
-    }
-  });
-}, { threshold: 0.2 });
-
-writersBlocks.forEach(block => observer.observe(block));
 
 
 
